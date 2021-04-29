@@ -1,0 +1,43 @@
+.login{
+    background-color: lightseagreen;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    border-radius: 20px;
+}
+.form>button{
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+.form>input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid lightgray;
+}
+.login>button{
+
+    border: none;
+ margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}

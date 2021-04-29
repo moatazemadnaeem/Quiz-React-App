@@ -1,0 +1,20 @@
+.endscreen{
+
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
+.endscreen>button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}

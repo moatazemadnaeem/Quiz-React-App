@@ -1,0 +1,22 @@
+.menu{
+width: 50vw;
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: lightseagreen;
+border-radius: 20px;
+}
+.menu>button{
+   border: none;
+   width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.menu>p{
+    color: white;
+}

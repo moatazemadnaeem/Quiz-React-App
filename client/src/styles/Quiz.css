@@ -1,0 +1,32 @@
+.quiz{
+    background-color: lightseagreen;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.quiz>p{
+    color: white;
+    font-size: 20px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 50%;
+}
+.options>button{
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
